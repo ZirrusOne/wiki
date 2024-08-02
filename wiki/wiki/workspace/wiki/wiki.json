@@ -1,11 +1,11 @@
 {
  "charts": [],
- "content": "[{\"id\":\"f6laZQUa0x\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Wikis</span>\",\"col\":12}},{\"id\":\"DY0YhwFmDX\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Docs Wiki\",\"col\":12}},{\"id\":\"MqWAP-qr-z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Wiki Management<br></b></span>\",\"col\":12}},{\"id\":\"kgs8MwFa_Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Page Management\",\"col\":4}},{\"id\":\"AznibYYsta\",\"type\":\"card\",\"data\":{\"card_name\":\"Wiki Meta\",\"col\":4}}]",
+ "content": "[{\"id\":\"f6laZQUa0x\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Wikis</span>\",\"col\":12}},{\"id\":\"2NMKpxUeGS\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Wiki Docs\",\"col\":12}},{\"id\":\"MqWAP-qr-z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Wiki Management<br></b></span>\",\"col\":12}},{\"id\":\"kgs8MwFa_Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Page Management\",\"col\":4}},{\"id\":\"AznibYYsta\",\"type\":\"card\",\"data\":{\"card_name\":\"Wiki Meta\",\"col\":4}}]",
  "creation": "2022-09-25 16:45:20.547072",
  "custom_blocks": [
   {
-   "custom_block_name": "Docs Wiki",
-   "label": "Docs Wiki"
+   "custom_block_name": "Wiki Docs",
+   "label": "Wiki Docs"
   }
  ],
  "docstatus": 0,
@@ -96,7 +96,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-08-02 08:41:12.721358",
+ "modified": "2024-08-02 11:55:28.954994",
  "modified_by": "Administrator",
  "module": "Wiki",
  "name": "Wiki",
