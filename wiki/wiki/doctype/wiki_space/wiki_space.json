@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "prompt",
+ "autoname": "hash",
  "creation": "2023-04-11 12:26:16.593440",
  "default_view": "List",
  "doctype": "DocType",
@@ -71,11 +71,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-03 06:17:47.315126",
+ "modified": "2024-08-03 08:30:58.397741",
  "modified_by": "Administrator",
  "module": "Wiki",
  "name": "Wiki Space",
- "naming_rule": "Set by user",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {
