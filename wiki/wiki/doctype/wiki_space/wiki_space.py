@@ -32,9 +32,6 @@ class WikiSpace(Document):
 				},
 			)
 
-		# Create a workspace shortcut
-		create_workspace_shortcut(self.route, self.route)
-
 	def before_save(self):
 		self.update_wiki_page_routes()
 
@@ -123,26 +120,6 @@ def clone_wiki_space(name, route, new_space_route):
 	cloned_wiki_space.insert()
 
 	return cloned_wiki_space
-
-def create_workspace_shortcut(wiki_space_route, wiki_space_title):
-    # Check if the workspace exists
-    if not frappe.db.exists("Workspace", "Wiki"):
-        workspace = frappe.new_doc("Workspace")
-        workspace.title = "Wiki"
-        workspace.icon = "fa fa-book"
-        workspace.save(ignore_permissions=True)
-    
-    # Add the shortcut
-    workspace = frappe.get_doc("Workspace", "Wiki")
-    workspace.append("shortcuts", {
-        "label": wiki_space_title,
-        "link_to": "Wiki Space",
-        "link_type": "DocType",
-        "link": wiki_space_route,
-        "doctype": "Wiki Space",
-    })
-    workspace.save(ignore_permissions=True)
-
 
 @frappe.whitelist()
 def update_sidebar(sidebar_items):
