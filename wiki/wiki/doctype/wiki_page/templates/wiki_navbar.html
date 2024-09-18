@@ -17,6 +17,11 @@
           <span>{{ (frappe.get_hooks("brand_html") or [_("Home")])[0] }}</span>
         {%- endif -%}
       </a>
+      {%- if frappe.session.user != "Guest" -%}
+      <div class="switch-to-desk"></div>
+        <a href="/app">Switch to Desk</a>
+      </div>
+      {%- endif -%}
     </div>
 
     {% if navbar_search %}

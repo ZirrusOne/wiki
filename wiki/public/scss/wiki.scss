@@ -99,6 +99,12 @@ body.dark {
 	.alert-message {
 		color: var(--gray-800) !important;
 	}
+
+	a {
+		color: var(--gray-200);
+		font-size: small;
+	}
+
 }
 
 .nav-tabs {
@@ -172,6 +178,10 @@ body.dark {
 }
 
 // sidebar
+.sidebar-logo {
+	display: none;
+}
+
 .sidebar-column {
 	margin-top: -60px;
 }
@@ -619,7 +629,7 @@ body.dark {
 	color: var(--text-color) !important;
 
 	img {
-		height: 20px;
+		height: 40px;
 		max-width: fit-content;
 	}
 
@@ -650,6 +660,10 @@ body.dark {
 		// padding: 1rem 0 0 0;
 		background-color: var(--background-color);
 	}
+}
+
+.navbar-brand img {
+	max-height: 50px;
 }
 
 .dropdown-menu {
