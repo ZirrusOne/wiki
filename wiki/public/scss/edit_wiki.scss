@@ -372,7 +372,7 @@ $font-sizes-mobile: (
 
 .wiki-editor {
 	margin-left: -1rem;
-	width: 800px;
+	width: calc(80vw - 6rem);
 
 	@include media-breakpoint-down(md) {
 		margin: 0;

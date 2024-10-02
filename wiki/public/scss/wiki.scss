@@ -683,7 +683,7 @@ body.dark {
 // main-content
 .main-column {
 	background-color: var(--background-color);
-	width: 745px;
+	width: calc(80vw - 6rem);
 	padding: 10px 40px;
 	margin: auto auto;
 
@@ -698,7 +698,7 @@ body.dark {
 }
 
 .wiki-page-content {
-	max-width: 750px;
+	max-width: calc(80vw - 6rem);
 	margin: 0 auto;
 
 	.from-markdown {
